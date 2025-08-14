@@ -9,7 +9,8 @@
 <body>
     
     <div id="calculator">
-        <input id="display" readonly>
+       <input id="display" type="text" inputmode="numeric" pattern="[0-9+\-*/.]*">
+
         <div id="keys">
             <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
             <button onclick="appendToDisplay('7')">7</button>
